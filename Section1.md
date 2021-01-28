@@ -26,3 +26,7 @@ INSERT INTO cities (name, country, population, area) - like the model
 VALUES
 ('Tokyo', 'Japan', 38505000, 8223),
 ('Shanghai', 'China', 20935999, 3042); adding multiple
+
+SELECT * FROM cities; - getting all the cities
+
+SELECT name FROM cities; - getting all the names of cites
