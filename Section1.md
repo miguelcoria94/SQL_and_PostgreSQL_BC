@@ -31,4 +31,5 @@ SELECT * FROM cities; - getting all the cities
 
 SELECT name FROM cities; - getting all the names of cites
 
-SELECT name, population / area FROM cities; - doing some math, not so hard
+SELECT name, population / area AS population_density
+FROM cities; - doing some math, not so hard
