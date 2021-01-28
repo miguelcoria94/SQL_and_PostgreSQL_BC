@@ -12,8 +12,8 @@ Database:
         types | string string int int
 
 CREATE TABLE cities (
-    name VARCHAR(50),
-    country VARCHAR(50),
-    population INTEGER,
-    area INTEGER
+    name VARCHAR(50), - this creates a name column with a type of string with a 50 char limit
+    country VARCHAR(50), - this is another coloumn just like the name
+    population INTEGER, - this is a column for the population and the type is a Integer
+    area INTEGER - this is the same as the population
 )
