@@ -17,3 +17,5 @@ CREATE TABLE cities (
     population INTEGER, - this is a column for the population and the type is a Integer
     area INTEGER - this is the same as the population
 )
+
+Keywords are in all caps and Idetifiers are in all lower case
