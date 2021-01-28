@@ -19,3 +19,5 @@ CREATE TABLE cities (
 )
 
 Keywords are in all caps and Idetifiers are in all lower case
+
+Integer is a number without a decimal within a negative to positive 2 billion
