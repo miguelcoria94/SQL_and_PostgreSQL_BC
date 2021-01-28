@@ -34,4 +34,6 @@ SELECT name FROM cities; - getting all the names of cites
 SELECT name, population / area AS population_density
 FROM cities; - doing some math, not so hard
 
-SELECT name || ', ' || country FROM cities;
+SELECT name || ', ' || country AS Location FROM cities;
+
+SELECT CONCAT(name, ', ', country) AS location FROM cities;
