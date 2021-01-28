@@ -36,4 +36,4 @@ FROM cities; - doing some math, not so hard
 
 SELECT name || ', ' || country AS Location FROM cities;
 
-SELECT CONCAT(name, ', ', country) AS location FROM cities;
+SELECT UPPER(CONCAT(name, ', ', country)) AS location FROM cities;
