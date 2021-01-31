@@ -61,4 +61,7 @@ WHERE
 
 DELETING -------------------
 
-
+DELETE FROM
+    cities
+WHERE
+    name = "Tokyo";
