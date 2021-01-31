@@ -46,6 +46,6 @@ SELECT
 FROM
     cities,
 WHERE 
-    area NOT IN (3000) AND name = 'Delhi;
+    area 
 
 Not read from left to right
