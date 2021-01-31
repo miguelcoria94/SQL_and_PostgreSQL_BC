@@ -38,5 +38,8 @@ SELECT name || ', ' || country AS Location FROM cities;
 
 SELECT UPPER(CONCAT(name, ', ', country)) AS location FROM cities;
 
-SELECT name, area FROM cities WHERE area > 4000;
+(SELECT name, area FROM cities WHERE area > 4000;)
 
+
+
+Not read from left to right
