@@ -49,3 +49,16 @@ WHERE
     area 
 
 Not read from left to right
+
+UPDATING -------------------
+
+UPDATE
+    cities
+SET
+    population = 2332523
+WHERE
+    name = "tokyo"
+
+DELETING -------------------
+
+
