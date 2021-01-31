@@ -46,6 +46,6 @@ SELECT
 FROM
     cities,
 WHERE 
-    area <> 8223;
+    area BETWEEN 2000 AND 4000;
 
 Not read from left to right
