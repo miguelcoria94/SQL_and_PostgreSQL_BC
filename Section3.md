@@ -9,3 +9,8 @@ List of photos
 # Primary key
 
 # Foreign Key
+
+CREATE TABLE users (
+    id SERIAL,
+    username VARCHAR(50)
+)
